@@ -1,0 +1,51 @@
+            body {
+                background-color: #cecece73;
+            }
+            
+            table,
+            tr,
+            td {
+                background-color: rgb(121, 142, 211);
+                padding: 10px;
+                border: 1px solid rgba(9, 51, 3, 0.075);
+                color: rgb(255, 255, 255);
+                font-weight: 600;
+            }
+            
+            .input {
+                padding: 20px;
+                position: relative;
+            }
+            
+            a {
+                color: rgb(255, 0, 0);
+            }
+            
+            a:hover {
+                color: black;
+            }
+            
+            .img {
+                width: 50px;
+                height: 50px;
+                border: none;
+            }
+            
+            h1 {
+                color: blue;
+                font-weight: 800;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                letter-spacing: 2px;
+                padding: 50px;
+                font-size: 4pc;
+            }
+            
+            @media screen and (max-width: 769px) {
+                table {
+                    position: relative;
+                    top: 20px;
+                }
+                h1 {
+                    font-size: 2rem;
+                }
+            }
